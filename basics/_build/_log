@@ -1,0 +1,10 @@
+### Starting build.
+# Target: recursive.ml.depends, tags: { extension:ml, file:recursive.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep.opt -modules recursive.ml > recursive.ml.depends
+# Target: recursive.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:recursive.cmo, file:recursive.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc.opt -c -o recursive.cmo recursive.ml
+# Target: recursive.cmx, tags: { compile, extension:cmx, extension:ml, file:recursive.cmx, file:recursive.ml, implem, native, ocaml, quiet }
+/usr/bin/ocamlopt.opt -c -o recursive.cmx recursive.ml
+# Target: recursive.native, tags: { dont_link_with, extension:native, file:recursive.native, link, native, ocaml, program, quiet }
+/usr/bin/ocamlopt.opt recursive.cmx -o recursive.native
+# Compilation successful.

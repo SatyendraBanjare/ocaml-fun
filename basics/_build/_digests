@@ -1,0 +1,5 @@
+"Rule: ocaml dependencies ml (%=recursive )": "vmYq\027\212\188\178\002\180ZNR\019\017\159"
+"Rule: ocaml: ml -> cmo & cmi (%=recursive )": "\005!\ti#)\173\166)\165b\168\171\137\200D"
+"Rule: ocaml: ml & cmi -> cmx & o (%=recursive )": "\016\000\242\"\rM\137\194\000!\t0\238\237p\166"
+"Rule: ocaml: cmx* & o* -> native (%=recursive )": "QZV\136k\000\146\154y\030\247\131>\1934k"
+"Resource: /home/osdev/Documents/ocaml-fun/basics/recursive.ml": "\246\245+\226\225v,\214\233\131\196t\199vqt"
